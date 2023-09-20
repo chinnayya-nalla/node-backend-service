@@ -1,0 +1,241 @@
+COUNTRY_CODE,COUNTRY_NAME,CURRENCY_CODE,TAX_TYPE,CALLING_CODE,CONTACT_NUMBER_PATTERN,POSTAL_CODE_PATTERN
+AF,Afghanistan,AFN,GST,93,"^\d{8,15}$",NULL
+AL,Albania,ALL,VAT,355,"^\d{8,15}$",NULL
+DZ,Algeria,DZD,VAT,213,"^\d{9,9}$",NULL
+AS,American Samoa,USD,VAT,1684,"^\d{8,15}$",NULL
+AD,Andorra,EUR,VAT,376,"^\d{8,15}$",NULL
+AO,Angola,AOA,VAT,244,"^[9][0-9]{8,8}$",NULL
+AI,Anguilla,XCD,VAT,1264,"^\d{8,15}$",NULL
+AQ,Antarctica,,VAT,0,"^\d{8,15}$",NULL
+AG,Antigua and Barbuda,XCD,VAT,1268,"^\d{8,15}$",NULL
+AR,Argentina,ARS,VAT,54,"^\d{8,15}$",NULL
+AM,Armenia,AMD,VAT,374,"^\d{8,15}$",NULL
+AW,Aruba,AWG,VAT,297,"^\d{8,15}$",NULL
+AU,Australia,AUD,VAT,61,"^\d{8,15}$",NULL
+AT,Austria,EUR,VAT,43,"^\d{8,15}$",NULL
+AZ,Azerbaijan,AZN,VAT,994,"^\d{8,15}$",NULL
+BS,Bahamas,BSD,VAT,1242,"^\d{8,15}$",NULL
+BH,Bahrain,BHD,VAT,973,"^\d{8,15}$",NULL
+BD,Bangladesh,BDT,VAT,880,"^\d{8,15}$",NULL
+BB,Barbados,BBD,VAT,1246,"^\d{8,15}$",NULL
+BY,Belarus,BYR,VAT,375,"^\d{8,15}$",NULL
+BE,Belgium,EUR,VAT,32,"^\d{8,15}$",NULL
+BZ,Belize,BZD,VAT,501,"^\d{8,15}$",NULL
+BJ,Benin,XOF,VAT,229,"^\d{8,15}$",NULL
+BM,Bermuda,BMD,VAT,1441,"^\d{8,15}$",NULL
+BT,Bhutan,BTN,VAT,975,"^\d{8,15}$",NULL
+BO,Bolivia,BOB,VAT,591,"^\d{8,15}$",NULL
+BA,Bosnia and Herzegovina,BAM,VAT,387,"^\d{8,15}$",NULL
+BW,Botswana,BWP,VAT,267,"^\d{8,15}$",NULL
+BV,Bouvet Island,NOK,VAT,0,"^\d{8,15}$",NULL
+BR,Brazil,BRL,VAT,55,"^\d{8,15}$",NULL
+IO,British Indian Ocean Territory,USD,VAT,246,"^\d{8,15}$",NULL
+BN,Brunei,BND,VAT,673,"^\d{8,15}$",NULL
+BG,Bulgaria,BGN,VAT,359,"^\d{8,15}$",NULL
+BF,Burkina Faso,XOF,VAT,226,"^\d{8,15}$",NULL
+BI,Burundi,BIF,VAT,257,"^\d{8,15}$",NULL
+KH,Cambodia,KHR,VAT,855,"^\d{8,15}$",NULL
+CM,Cameroon,XAF,VAT,237,"^\d{8,15}$",NULL
+CA,Canada,CAD,VAT,1,"^\d{8,15}$",NULL
+CV,Cape Verde,CVE,VAT,238,"^\d{8,15}$",NULL
+KY,Cayman Islands,KYD,VAT,1345,"^\d{8,15}$",NULL
+CF,Central African Republic,XAF,VAT,236,"^\d{8,15}$",NULL
+TD,Chad,XAF,VAT,235,"^\d{8,15}$",NULL
+CL,Chile,CLP,VAT,56,"^\d{8,15}$",NULL
+CN,China,CNY,VAT,86,"^\d{8,15}$",NULL
+CX,Christmas Island,AUD,VAT,61,"^\d{8,15}$",NULL
+CC,Cocos (Keeling) Islands,AUD,VAT,672,"^\d{8,15}$",NULL
+CO,Colombia,COP,VAT,57,"^\d{8,15}$",NULL
+KM,Comoros,KMF,VAT,269,"^\d{8,15}$",NULL
+CG,Republic of the Congo,XAF,VAT,242,"^\d{8,15}$",NULL
+CD,Democratic Republic of the Congo,COD,VAT,242,"^\d{8,15}$",NULL
+CK,Cook Islands,NZD,VAT,682,"^\d{8,15}$",NULL
+CR,Costa Rica,CRC,VAT,506,"^\d{8,15}$",NULL
+CI,Cote D'Ivoire (Ivory Coast),XOF,VAT,225,"^\d{8,15}$",NULL
+HR,Croatia,HRK,VAT,385,"^\d{8,15}$",NULL
+CU,Cuba,CUP,VAT,53,"^\d{8,15}$",NULL
+CY,Cyprus,EUR,VAT,357,"^\d{8,15}$",NULL
+CZ,Czech Republic,CZK,VAT,420,"^\d{8,15}$",NULL
+DK,Denmark,DKK,VAT,45,"^\d{8,15}$",NULL
+DJ,Djibouti,DJF,VAT,253,"^\d{8,15}$",NULL
+DM,Dominica,XCD,VAT,1767,"^\d{8,15}$",NULL
+DO,Dominican Republic,DOP,VAT,1,"^\d{8,15}$",NULL
+TP,East Timor,,VAT,+,"^\d{8,15}$",NULL
+EC,Ecuador,USD,VAT,593,"^\d{8,15}$",NULL
+EG,Egypt,EGP,VAT,20,"^\d{8,15}$",NULL
+SV,El Salvador,USD,VAT,503,"^\d{8,15}$",NULL
+GQ,Equatorial Guinea,XAF,VAT,240,"^\d{8,15}$",NULL
+ER,Eritrea,ERN,VAT,291,"^\d{8,15}$",NULL
+EE,Estonia,EUR,VAT,372,"^\d{8,15}$",NULL
+ET,Ethiopia,ETB,VAT,251,"^\d{8,15}$",NULL
+FK,Falkland Islands,FKP,VAT,500,"^\d{8,15}$",NULL
+FO,Faroe Islands,DKK,VAT,298,"^\d{8,15}$",NULL
+FJ,Fiji Islands,FJD,VAT,679,"^\d{8,15}$",NULL
+FI,Finland,EUR,VAT,358,"^\d{8,15}$",NULL
+FR,France,EUR,VAT,33,"^\d{8,15}$",NULL
+GF,French Guiana,EUR,VAT,594,"^\d{8,15}$",NULL
+PF,French Polynesia,XPF,VAT,689,"^\d{8,15}$",NULL
+TF,French Southern territories,EUR,VAT,0,"^\d{8,15}$",NULL
+GA,Gabon,XAF,VAT,241,"^\d{8,15}$",NULL
+GM,Gambia,GMD,VAT,220,"^\d{8,15}$",NULL
+GE,Georgia,GEL,VAT,995,"^\d{8,15}$",NULL
+DE,Germany,EUR,VAT,49,"^\d{8,15}$",NULL
+GH,Ghana,GHS,VAT,233,"^\d{8,15}$",NULL
+GI,Gibraltar,GIP,VAT,350,"^\d{8,15}$",NULL
+GR,Greece,EUR,VAT,30,"^\d{8,15}$",NULL
+GL,Greenland,DKK,VAT,299,"^\d{8,15}$",NULL
+GD,Grenada,XCD,VAT,1473,"^\d{8,15}$",NULL
+GP,Guadeloupe,EUR,VAT,590,"^\d{8,15}$",NULL
+GU,Guam,USD,VAT,1671,"^\d{8,15}$",NULL
+GT,Guatemala,GTQ,VAT,502,"^\d{8,15}$",NULL
+GN,Guinea,GNF,VAT,224,"^\d{8,15}$",NULL
+GW,Guinea-Bissau,XOF,VAT,245,"^\d{8,15}$",NULL
+GY,Guyana,GYD,VAT,592,"^\d{8,15}$",NULL
+HT,Haiti,HTG,VAT,509,"^\d{8,15}$",NULL
+HM,Heard Island and McDonald Islands,AUD,VAT,0,"^\d{8,15}$",NULL
+VA,Holy See (Vatican City State),EUR,VAT,39,"^\d{8,15}$",NULL
+HN,Honduras,HNL,VAT,504,"^\d{8,15}$",NULL
+HK,Hong Kong,HKD,VAT,852,"^\d{8,15}$",NULL
+HU,Hungary,HUF,VAT,36,"^\d{8,15}$",NULL
+IS,Iceland,ISK,VAT,354,"^\d{8,15}$",NULL
+IN,India,INR,GST,91,"^\d{8,15}$","^[0-9]{6,6}"
+ID,Indonesia,IDR,VAT,62,"^\d{8,15}$",NULL
+IR,Iran,IRR,VAT,98,"^\d{8,15}$",NULL
+IQ,Iraq,IQD,VAT,964,"^\d{8,15}$",NULL
+IE,Ireland,EUR,VAT,353,"^\d{8,15}$",NULL
+IL,Israel,ILS,VAT,972,"^\d{8,15}$",NULL
+IT,Italy,EUR,VAT,39,"^\d{8,15}$",NULL
+JM,Jamaica,JMD,VAT,1876,"^\d{8,15}$",NULL
+JP,Japan,JPY,VAT,81,"^\d{8,15}$",NULL
+JO,Jordan,JOD,VAT,962,"^\d{8,15}$",NULL
+KZ,Kazakstan,KZT,VAT,7,"^\d{8,15}$",NULL
+KE,Kenya,KES,VAT,254,"^\d{8,15}$",NULL
+KI,Kiribati,AUD,VAT,686,"^\d{8,15}$",NULL
+KW,Kuwait,KWD,VAT,965,"^\d{8,15}$",NULL
+KG,Kyrgyzstan,KGS,VAT,996,"^\d{8,15}$",NULL
+LA,Laos,LAK,VAT,856,"^\d{8,15}$",NULL
+LV,Latvia,EUR,VAT,371,"^\d{8,15}$",NULL
+LB,Lebanon,LBP,VAT,961,"^\d{8,15}$",NULL
+LS,Lesotho,LSL,VAT,266,"^\d{8,15}$",NULL
+LR,Liberia,LRD,VAT,231,"^\d{8,15}$",NULL
+LY,Libyan Arab Jamahiriya,LYD,VAT,218,"^\d{8,15}$",NULL
+LI,Liechtenstein,CHF,VAT,423,"^\d{8,15}$",NULL
+LT,Lithuania,EUR,VAT,370,"^\d{8,15}$",NULL
+LU,Luxembourg,EUR,VAT,352,"^\d{8,15}$",NULL
+MO,Macao,MOP,VAT,853,"^\d{8,15}$",NULL
+MK,Macedonia,MKD,VAT,389,"^\d{8,15}$",NULL
+MG,Madagascar,MGA,VAT,261,"^\d{8,15}$",NULL
+MW,Malawi,MWK,VAT,265,"^\d{8,15}$",NULL
+MY,Malaysia,MYR,VAT,60,"^\d{8,15}$",NULL
+MV,Maldives,MVR,VAT,960,"^\d{8,15}$",NULL
+ML,Mali,XOF,VAT,223,"^\d{8,15}$",NULL
+MT,Malta,EUR,VAT,356,"^\d{8,15}$",NULL
+MH,Marshall Islands,USD,VAT,692,"^\d{8,15}$",NULL
+MQ,Martinique,EUR,VAT,596,"^\d{8,15}$",NULL
+MR,Mauritania,MRO,VAT,222,"^\d{8,15}$",NULL
+MU,Mauritius,MUR,VAT,230,"^\d{8,15}$",NULL
+YT,Mayotte,EUR,VAT,269,"^\d{8,15}$",NULL
+MX,Mexico,MXN,VAT,52,"^\d{8,15}$",NULL
+FM,Micronesia  Federated States of,USD,VAT,691,"^\d{8,15}$",NULL
+MD,Moldova,MDL,VAT,373,"^\d{8,15}$",NULL
+MC,Monaco,EUR,VAT,377,"^\d{8,15}$",NULL
+MN,Mongolia,MNT,VAT,976,"^\d{8,15}$",NULL
+MS,Montserrat,XCD,VAT,1664,"^\d{8,15}$",NULL
+MA,Morocco,MAD,VAT,212,"^\d{8,15}$",NULL
+MZ,Mozambique,MZN,VAT,258,"^\d{8,15}$",NULL
+MM,Myanmar,MMK,VAT,95,"^\d{8,15}$",NULL
+NA,Namibia,NAD,VAT,264,"^\d{8,15}$",NULL
+NR,Nauru,AUD,VAT,674,"^\d{8,15}$",NULL
+NP,Nepal,NPR,VAT,977,"^\d{8,15}$",NULL
+NL,Netherlands,EUR,VAT,31,"^\d{8,15}$",NULL
+AN,Netherlands Antilles,,VAT,599,"^\d{8,15}$",NULL
+NC,New Caledonia,XPF,VAT,687,"^\d{8,15}$",NULL
+NZ,New Zealand,NZD,VAT,64,"^\d{8,15}$",NULL
+NI,Nicaragua,NIO,VAT,505,"^\d{8,15}$",NULL
+NE,Niger,XOF,VAT,227,"^\d{8,15}$",NULL
+NG,Nigeria,NGN,VAT,234,"^\d{8,15}$",NULL
+NU,Niue,NZD,VAT,683,"^\d{8,15}$",NULL
+NF,Norfolk Island,AUD,VAT,672,"^\d{8,15}$",NULL
+KP,North Korea,KPW,VAT,850,"^\d{8,15}$",NULL
+MP,Northern Mariana Islands,USD,VAT,1670,"^\d{8,15}$",NULL
+NO,Norway,NOK,VAT,47,"^\d{8,15}$",NULL
+OM,Oman,OMR,VAT,968,"^\d{8,15}$",NULL
+PK,Pakistan,PKR,VAT,92,"^\d{8,15}$",NULL
+PW,Palau,USD,VAT,680,"^\d{8,15}$",NULL
+PS,Palestine,ILS,VAT,970,"^\d{8,15}$",NULL
+PA,Panama,PAB,VAT,507,"^\d{8,15}$",NULL
+PG,Papua New Guinea,PGK,VAT,675,"^\d{8,15}$",NULL
+PY,Paraguay,PYG,VAT,595,"^\d{8,15}$",NULL
+PE,Peru,PEN,VAT,51,"^\d{8,15}$",NULL
+PH,Philippines,PHP,VAT,63,"^\d{8,15}$",NULL
+PN,Pitcairn,NZD,VAT,0,"^\d{8,15}$",NULL
+PL,Poland,PLN,VAT,48,"^\d{8,15}$",NULL
+PT,Portugal,EUR,VAT,351,"^\d{8,15}$",NULL
+PR,Puerto Rico,USD,VAT,1787,"^\d{8,15}$",NULL
+QA,Qatar,QAR,VAT,974,"^\d{8,15}$",NULL
+RE,Reunion,EUR,VAT,262,"^\d{8,15}$",NULL
+RO,Romania,RON,VAT,40,"^\d{8,15}$",NULL
+RU,Russian Federation,RUB,VAT,70,"^\d{8,15}$",NULL
+RW,Rwanda,RWF,VAT,250,"^\d{8,15}$",NULL
+SH,Saint Helena,SHP,VAT,290,"^\d{8,15}$",NULL
+KN,Saint Kitts and Nevis,XCD,VAT,1869,"^\d{8,15}$",NULL
+LC,Saint Lucia,XCD,VAT,1758,"^\d{8,15}$",NULL
+PM,Saint Pierre and Miquelon,EUR,VAT,508,"^\d{8,15}$",NULL
+VC,Saint Vincent and the Grenadines,XCD,VAT,1784,"^\d{8,15}$",NULL
+WS,Samoa,WST,VAT,684,"^\d{8,15}$",NULL
+SM,San Marino,EUR,VAT,378,"^\d{8,15}$",NULL
+ST,Sao Tome and Principe,STD,VAT,239,"^\d{8,15}$",NULL
+SA,Saudi Arabia,SAR,VAT,966,"^\d{8,15}$",NULL
+SN,Senegal,XOF,VAT,221,"^\d{8,15}$",NULL
+SC,Seychelles,SCR,VAT,248,"^\d{8,15}$",NULL
+SL,Sierra Leone,SLL,VAT,232,"^\d{8,15}$",NULL
+SG,Singapore,SGD,VAT,65,"^\d{8,15}$",NULL
+SK,Slovakia,EUR,VAT,421,"^\d{8,15}$",NULL
+SI,Slovenia,EUR,VAT,386,"^\d{8,15}$",NULL
+SB,Solomon Islands,SBD,VAT,677,"^\d{8,15}$",NULL
+SO,Somalia,SOS,VAT,252,"^\d{8,15}$",NULL
+ZA,South Africa,ZAR,VAT,27,"^\d{8,15}$",NULL
+GS,South Georgia and the South Sandwich Islands,GBP,VAT,0,"^\d{8,15}$",NULL
+KR,South Korea,KRW,VAT,82,"^\d{8,15}$",NULL
+ES,Spain,EUR,VAT,34,"^\d{8,15}$",NULL
+LK,Sri Lanka,LKR,VAT,94,"^\d{8,15}$",NULL
+SD,Sudan,SDG,VAT,249,"^\d{8,15}$",NULL
+SR,Suriname,SRD,VAT,597,"^\d{8,15}$",NULL
+SJ,Svalbard and Jan Mayen,NOK,VAT,47,"^\d{8,15}$",NULL
+SZ,Swaziland,SZL,VAT,268,"^\d{8,15}$",NULL
+SE,Sweden,SEK,VAT,46,"^\d{8,15}$",NULL
+CH,Switzerland,CHF,VAT,41,"^\d{8,15}$",NULL
+SY,Syria,SYP,VAT,963,"^\d{8,15}$",NULL
+TW,Taiwan,TWD,VAT,886,"^\d{8,15}$",NULL
+TJ,Tajikistan,TJS,VAT,992,"^\d{8,15}$",NULL
+TZ,Tanzania,TZS,VAT,255,"^\d{8,15}$",NULL
+TH,Thailand,THB,VAT,66,"^\d{8,15}$",NULL
+TG,Togo,XOF,VAT,228,"^\d{8,15}$",NULL
+TK,Tokelau,NZD,VAT,690,"^\d{8,15}$",NULL
+TO,Tonga,TOP,VAT,676,"^\d{8,15}$",NULL
+TT,Trinidad and Tobago,TTD,VAT,1868,"^\d{8,15}$",NULL
+TN,Tunisia,TND,VAT,216,"^\d{8,15}$",NULL
+TR,Turkey,TRY,VAT,90,"^\d{8,15}$",NULL
+TM,Turkmenistan,TMT,VAT,7370,"^\d{8,15}$",NULL
+TC,Turks and Caicos Islands,USD,VAT,1649,"^\d{8,15}$",NULL
+TV,Tuvalu,AUD,VAT,688,"^\d{8,15}$",NULL
+UG,Uganda,UGX,VAT,256,"^\d{8,15}$",NULL
+UA,Ukraine,UAH,VAT,380,"^\d{8,15}$",NULL
+AE,United Arab Emirates,AED,VAT,971,"^\d{8,15}$",NULL
+GB,United Kingdom,GBP,VAT,44,"^\d{5,15}",^[\w\s]+$
+US,United States,USD,VAT,1,"^\d{8,15}$",NULL
+UM,United States Minor Outlying Islands,USD,VAT,1,"^\d{8,15}$",NULL
+UY,Uruguay,UYU,VAT,598,"^\d{8,15}$",NULL
+UZ,Uzbekistan,UZS,VAT,998,"^\d{8,15}$",NULL
+VU,Vanuatu,VUV,VAT,678,"^\d{8,15}$",NULL
+VE,Venezuela,VEF,VAT,58,"^\d{8,15}$",NULL
+VN,Vietnam,VND,VAT,84,"^\d{8,15}$",NULL
+VG,Virgin Islands British,GBP,VAT,1284,"^\d{8,15}$",NULL
+VI,Virgin Islands U.S,USD,VAT,1340,"^\d{8,15}$",NULL
+WF,Wallis and Futuna,XPF,VAT,681,"^\d{8,15}$",NULL
+EH,Western Sahara,MAD,VAT,212,"^\d{8,15}$",NULL
+YE,Yemen,YER,VAT,967,"^\d{8,15}$",NULL
+YU,Yugoslavia,,VAT,38,"^\d{8,15}$",NULL
+ZM,Zambia,ZMW,VAT,260,"^\d{8,15}$",NULL
+ZW,Zimbabwe,ZWL,VAT,263,"^\d{8,15}$",NULL
+XG,Smaller Territories of the UK,GBP,VAT,44,"^\d{5,15}",^[\w\s]+$
