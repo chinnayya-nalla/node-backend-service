@@ -1,0 +1,11 @@
+{
+  "name": "backend-service",
+  "version": "1.0.0",
+  "description": "Node Backend Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chinnayya Naidu Nalla",
+  "license": "MIT"
+}
