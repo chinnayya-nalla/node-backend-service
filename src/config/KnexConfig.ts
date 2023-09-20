@@ -1,3 +1,4 @@
+import knex from 'knex';
 import { DataBaseConfig } from './DataBaseConfig'
 
 const config = {
@@ -23,4 +24,6 @@ const config = {
 
 }
 
-export default config;
+const dataSource = knex(config);
+
+export { config, dataSource };
