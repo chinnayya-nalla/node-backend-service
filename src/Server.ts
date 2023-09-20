@@ -1,8 +1,10 @@
 import express from 'express';
 import { AppConfig } from './config/AppConfig';
 import Logger from './helpers/Logger';
+import Router from './Router';
 
 const app = express();
+const router = new Router(app);
 
 app.listen(
     AppConfig.PORT_NUMBER,
