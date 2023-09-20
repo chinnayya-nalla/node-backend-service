@@ -4,7 +4,6 @@ class CountryController {
     async countries(request: any, response: any) {
         let countryCode = request.query.countryCode;
         const countries = await countryService.countries(countryCode);
-        console.log(countries);
         response.status(200).send(countries);            
     }
 
