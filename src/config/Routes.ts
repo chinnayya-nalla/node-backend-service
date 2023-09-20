@@ -1,5 +1,5 @@
 import countryRoutes from "../routes/CountryRoute";
-import homeRoutes from "../routes/Home";
+import homeRoutes from "../routes/HomeRoute";
 
 
 const routes = [ countryRoutes, homeRoutes ];

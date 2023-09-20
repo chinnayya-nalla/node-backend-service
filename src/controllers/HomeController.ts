@@ -1,6 +1,6 @@
 import { AppConfig } from "../config/AppConfig";
 
-class Home {
+class HomeController {
 
     async info(request: any, response: any) {
         response.status(200).send({
@@ -11,4 +11,4 @@ class Home {
 
 }
 
-export default new Home();
+export default new HomeController();

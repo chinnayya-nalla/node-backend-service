@@ -1,4 +1,4 @@
-import HomeController from "../controllers/Home";
+import HomeController from "../controllers/HomeController";
 
 const homeRoutes = [
     
