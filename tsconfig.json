@@ -5,7 +5,7 @@
     "moduleResolution": "NodeNext",
     "baseUrl": "src",
     "outDir": "dist",
-    // "sourceMap": true,
+    "sourceMap": true,
     "noImplicitAny": true
   },
   "include": [ "src/**/*" ]
