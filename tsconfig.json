@@ -1,26 +1,12 @@
 {
   "compilerOptions": 
   {
-    "module": "CommonJS",
-    "esModuleInterop": true,
-    "target": "ES2019",
-    "allowJs": false,
-    "strictNullChecks": true,
-    "noImplicitAny": true,
-    "strict": true,
-    "strictFunctionTypes": false,
-    "noImplicitThis": false,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "rootDir": "./",
-    "outDir": "build",
-    "baseUrl": ".",
-    "paths": {
-      
-    }
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": "src",
+    "outDir": "dist",
+    // "sourceMap": true,
+    "noImplicitAny": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "include": [ "src/**/*" ]
 }
