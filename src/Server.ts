@@ -9,10 +9,10 @@ import Security from './middlewares/Security';
 const application = express();
 
 // Registering Middlewares
-const bodyParser = new BodyParser(application);
-const security = new Security(application);
-const morganLogger = new MorganLogger(application);
-const router = new Router(application);
+new BodyParser(application);
+new Security(application);
+new MorganLogger(application);
+new Router(application);
 
 application.listen(
     AppConfig.PORT_NUMBER,

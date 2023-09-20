@@ -1,6 +1,8 @@
 import countryRoutes from "../routes/Country";
+import homeRoutes from "../routes/Home";
 
-const routes = [ countryRoutes ];
+
+const routes = [ countryRoutes, homeRoutes ];
 
 class Routes { 
 
