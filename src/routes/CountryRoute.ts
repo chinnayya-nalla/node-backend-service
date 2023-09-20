@@ -1,4 +1,4 @@
-import CountryController from "../controllers/Country";
+import CountryController from "../controllers/CountryController";
 
 const countryRoutes = [
     
