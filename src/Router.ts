@@ -1,6 +1,6 @@
 import Routes from "./config/Routes";
 import { Application } from "express";
-import Logger from "./helpers/Logger";
+import Logger from "./utils/Logger";
 
 class Router {
 

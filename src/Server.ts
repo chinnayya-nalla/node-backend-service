@@ -1,6 +1,6 @@
 import express from 'express';
 import { AppConfig } from './config/AppConfig';
-import Logger from './helpers/Logger';
+import Logger from './utils/Logger';
 import Router from './Router';
 import MorganLogger from './middlewares/MorganLogger';
 import BodyParser from './middlewares/BodyParser';

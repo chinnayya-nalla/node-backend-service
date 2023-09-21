@@ -1,10 +1,17 @@
-import countryService from '../services/CountryService'
+import countryService from '../services/CountryService';
+import { CountrySearchRepresentation } from '../models/CountrySearchRepresentation';
+
 class CountryController {
 
     async countries(request: any, response: any) {
-        let countryCode = request.query.countryCode;
+
+        let countrySearchRepresentation = {} as CountrySearchRepresentation;
+        countrySearchRepresentation.countryCode = request.query.countryCode;
+        countrySearchRepresentation.countryName = request.query.countryName;
+        countrySearchRepresentation.searchString = request.query.searchString;
+
         try {
-            response.status(200).send(await countryService.countries(countryCode));
+            response.status(200).send(await countryService.countries(countrySearchRepresentation));
         } catch(error) {
             response.status(500);
         }          

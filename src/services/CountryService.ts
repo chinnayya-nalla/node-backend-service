@@ -1,15 +1,13 @@
 import { CountryModel } from "models/CountryModel";
 import { dataSource } from "../config/KnexConfig";
+import countrySpecificationHelper from '../helpers/CountrySpecificationHelper';
+import { CountrySearchRepresentation } from "models/CountrySearchRepresentation";
 
 class CountryService {
 
-    public countries(countryCode: String) {
+    public countries(countrySearchRepresentation: CountrySearchRepresentation) {
         return new Promise((resolve, reject) => {
-            dataSource.select().where((builder) => {
-                if(countryCode != null && countryCode != undefined) {
-                    builder.where('country_code', countryCode);
-                }
-            }).from('COUNTRY').then(results => {
+            dataSource.select().where((builder) => countrySpecificationHelper.constructCountrySearchSpecification(builder, countrySearchRepresentation)).from('COUNTRY').then(results => {
                 let countries : CountryModel[] = [];
                 results.forEach((country) => {
                     let countryModel = {} as CountryModel;
