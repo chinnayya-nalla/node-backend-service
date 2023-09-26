@@ -22,3 +22,9 @@ This is a Basic Project Structure to help Developers to start building own RESTF
 - src/routes        :
 - src/services      :
 - src/utils         :
+
+
+## Dependencies
+| Dependency Name | Usage |
+| :-- | :-- |
+| TypeScript | Ts Func |
