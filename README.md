@@ -25,24 +25,23 @@ This is a Basic Project Structure to help Developers to start building own RESTF
 
 
 ## Dependencies
-| Dependency Name | Usage |
-| :-- | :-- |
-| TypeScript | Ts Func |
-| Async | Ts Func |
-| Body Parser | Ts Func |
-| CORS | Ts Func |
-| Underscore | Ts Func |
-| Validator | Ts Func |
-| Axios | Ts Func |
-| Express | Ts Func |
-| fs | Ts Func |
-| helmet | Ts Func |
-| Joi | Ts Func |
-| Knex | Ts Func |
-| Morgan | Ts Func |
-| MySql | Ts Func |
-| Papaparse | Ts Func |
-| Winston | Ts Func |
+| Dependency Name | Dependency Type | Description |
+| :-- | :-- | :-- |
+| Async | Utility | |
+| Axios | Utility | |
+| Body Parser | Middleware | |
+| Cors | Middleware | |
+| Express | Web Framework | |
+| Fs Extra | | |
+| helmet | Middleware | |
+| Joi | Utility | |
+| Knex | Framework | |
+| Morgan | Ts Func | |
+| MySql | Ts Func | |
+| Papaparse | Utility | |
+| Underscore | Utility | |
+| Validator | Utility | |
+| Winston | Ts Func | |
 
 
 ## Contribute
