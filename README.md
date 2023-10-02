@@ -2,7 +2,7 @@
 This is a Basic Project Structure to help Developers to start building own RESTFul web APIs using Express, TypeScript and MySQL Database with a Good Production Grade Structure Practices based on clean MVC Architecture
 
 
-# Features
+## Features
 - Fundamental of Express: Routing, Middleware, Sending Response and more
 - RESTful API
 - Security
@@ -10,7 +10,7 @@ This is a Basic Project Structure to help Developers to start building own RESTF
 - Logging
 - Database Migration
 
-# Project Structure
+## Project Structure
 - src/Server.ts     : Responsible for Starting the Server & Configure everything that has to do with Express Application
 - src/Router.ts     : 
 - db
@@ -30,7 +30,7 @@ This is a Basic Project Structure to help Developers to start building own RESTF
 | TypeScript | Ts Func |
 
 
-# Contribute
+## Contribute
 
 Contributions are always welcome! Please create a PR to add Github Profile.
 
