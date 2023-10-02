@@ -4,7 +4,7 @@ This is a Basic Project Structure to help developers to start building own RESTF
 
 ## Features
 - Fundamental of Express: Routing, Middleware, Sending Response and more
-- RESTful API
+- RESTful API 
 - Security
 - Environment Variables
 - Logging
