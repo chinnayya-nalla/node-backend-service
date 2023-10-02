@@ -27,21 +27,21 @@ This is a Basic Project Structure to help Developers to start building own RESTF
 ## Dependencies
 | Dependency Name | Dependency Type | Description |
 | :-- | :-- | :-- |
-| Async | Utility | |
-| Axios | Utility | |
-| Body Parser | Middleware | |
-| Cors | Middleware | |
-| Express | Web Framework | |
-| Fs Extra | | |
-| helmet | Middleware | |
-| Joi | Utility | |
-| Knex | Framework | |
-| Morgan | Ts Func | |
-| MySql | Ts Func | |
-| Papaparse | Utility | |
-| Underscore | Utility | |
-| Validator | Utility | |
-| Winston | Ts Func | |
+| Async | Utility | Async is a utility module which provides straight-forward, powerful functions for working with Asynchronous Function |
+| Axios | Web Framework | Axios is a HTTP Based Library offers different ways of making HTTP requests such as GET, POST, PUT, and DELETE |
+| Body Parser | Middleware | Parse incoming request bodies in a middleware before handlers |
+| Cors | Middleware | Security library used to define cors configurations |
+| Express | Web Framework | A Node js web application framework |
+| Fs Extra | Utility | Utility used to access file system |
+| helmet | Middleware | Security Middleware |
+| Joi | Utility | Utility to Perform Object validations |
+| Knex | Framework | Database Migration Framework |
+| Morgan | Middleware | Logger Middleware to Log the Incoming Requests |
+| MySql | Database Library | Used to Connect with MySQL Database |
+| Papaparse | Utility | CSV Parser |
+| Underscore | Utility | Validation Library |
+| Validator | Utility | Validation Library |
+| Winston | Utility | Logger Library |
 
 
 ## Contribute
