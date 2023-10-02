@@ -28,7 +28,7 @@ This is a Basic Project Structure to help Developers to start building own RESTF
 | Dependency Name | Dependency Type | Description |
 | :-- | :-- | :-- |
 | Async | Utility | Async is a utility module which provides straight-forward, powerful functions for working with Asynchronous Function |
-| Axios | Web Framework | Axios is a HTTP Based Library offers different ways of making HTTP requests such as GET, POST, PUT, and DELETE |
+| Axios | Web Framework | Axios is a HTTP Based Library offers different ways of making HTTP requests |
 | Body Parser | Middleware | Parse incoming request bodies in a middleware before handlers |
 | Cors | Middleware | Security library used to define cors configurations |
 | Express | Web Framework | A Node js web application framework |
